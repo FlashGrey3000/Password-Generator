@@ -1,0 +1,95 @@
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.password {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Light';
+}
+
+.password-div {
+    border: 1px solid #777;
+}
+
+.input-div {
+    border: 1px solid #777;
+    width: 30%;
+}
+
+.input {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Light';
+    opacity: 0.3;
+}
+
+.add_lMargin {
+    margin-left: 50px;
+}
+
+.add_tMargin {
+    margin-top: 50px;
+}
+
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+input[type="radio"] {
+    appearance: none; /* Remove default styles */
+
+    width: 20px; /* Adjust the width of the radio button */
+    height: 20px; /* Adjust the height of the radio button */
+    border: 2px solid #800; /* Border color */
+    border-radius: 50%;
+    margin-right: 10px; /* Spacing between radio button and label */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"]:checked {
+    background-color: #0c0; /* Background color when checked */
+    border-color: #800; /* Border color when checked */
+    box-shadow: 0 0 9px rgba(0, 0, 0, 1);
+}
+
+input[type="radio"]:hover {
+    background-color: rgba(122, 255, 122, 0.73);
+}
+
+.submitbtn {
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(61, 132, 255);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25%;
+    border-color: transparent;
+
+}
+
+.submitbtn:hover {
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(33, 103, 224);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25%;
+    border-color: black;
+    border-width: 3px;
+    
+}
+
+.submitbtndiv {
+    margin-top: 20px;
+    text-align: center;
+}
